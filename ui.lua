@@ -1410,11 +1410,11 @@ Library.TweenService = game:GetService('TweenService');
 Library.LocalPlayer = game:GetService('Players').LocalPlayer;
 Library.CoreGui = (game:FindFirstChild('CoreGui') and Library.Cloneref(game:GetService('CoreGui'))) or Library.LocalPlayer.PlayerGui;
 Library.SizeLibrary = {
-	Default = UDim2.fromOffset(20, 30),
-	Auth = UDim2.new(0.05, 250,0.05, 125),
-	Max = UDim2.fromScale(1,1),
-	Loading = UDim2.new(0, 90,0, 90),
-	Close = UDim2.new(0.01, 25,0.01, 25)
+	Default = UDim2.fromOffset(160, 260),
+	Auth = UDim2.new(0.05, 200, 0.05, 100),
+	Max = UDim2.fromScale(1, 1),
+	Loading = UDim2.new(0, 70, 0, 70),
+	Close = UDim2.new(0.01, 20, 0.01, 20)
 };
 
 Library.Theme = {}
