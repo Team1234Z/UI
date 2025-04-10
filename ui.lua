@@ -1,11 +1,9 @@
--- เครดิต ui nakub https://github.com/3345-c-a-t-s-u-s/Acrylic/blob/main/source
--- Updated: Lag Fixed & Theme --
--- This is not hyprland --
+-- credit ui https://github.com/3345-c-a-t-s-u-s/Acrylic/blob/main/source
 
 local Library = {
-	Version = 'Acrylic.0.6',
+	Version = 'LoCal1.0.0',
 	Loaded = true,
-	Discord = 'discord.gg/wPaQZwhMHy',
+	Discord = 'discord.gg/LoCal',
 	env = getgenv or getfenv,
 	Executor = {"s","w","z","t","a","c"},
 	Skid = true,
@@ -1412,7 +1410,7 @@ Library.TweenService = game:GetService('TweenService');
 Library.LocalPlayer = game:GetService('Players').LocalPlayer;
 Library.CoreGui = (game:FindFirstChild('CoreGui') and Library.Cloneref(game:GetService('CoreGui'))) or Library.LocalPlayer.PlayerGui;
 Library.SizeLibrary = {
-	Default = UDim2.fromOffset(580, 385),
+	Default = UDim2.fromOffset(320, 230),
 	Auth = UDim2.new(0.05, 250,0.05, 125),
 	Max = UDim2.fromScale(1,1),
 	Loading = UDim2.new(0, 90,0, 90),
